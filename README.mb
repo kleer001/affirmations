@@ -1,0 +1,11 @@
+Affirmations ~ An automagical affirmation reminder
+
+ver 1: 
+Sends random canned lines from a text file to an SMS number. 
+Code's a simple dumb mess, but works. Apparently also an implementation of part of a tutorial here: www.sitepoint.com/how-to-build-a-daily-affirmations-sms-service-with-stripe-syncano/
+ 
+Features: Logging. File Read. Random wait. Random line read. Very hard coded.
+Broken bits: Need to put ID&PASS on disk, not in code.
+Needs: Separate file of numbers. Drop a new process for each number. Open Source? Ha ha. Clean up source text. Get more affirmations. File format for Customer files? All with numbers and times. 
+
+add line numbers for affirmation logging
